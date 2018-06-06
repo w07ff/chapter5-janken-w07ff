@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="junken_text">じゃん・けん・</string>
+    <string name="back_text">戻る</string>
+    <string name="result_lose">コンピュータの勝ちです。</string>
+    <string name="result_draw">あいこです。</string>
 </resources>
