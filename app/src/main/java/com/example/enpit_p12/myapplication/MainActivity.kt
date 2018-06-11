@@ -3,7 +3,6 @@ package com.example.enpit_p12.myapplication
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.preference.PreferenceManager
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -17,10 +16,6 @@ class MainActivity : AppCompatActivity() {
         choki.setOnClickListener{ onJankenButtonTapped(it)}
         pa.setOnClickListener{ onJankenButtonTapped(it)}
 
-        //共有プリファレンスの初期化
-        val pref = PreferenceManager.getDefaultSharedPreferences(this)
-        val editor = pref.edit()
-        editor.clear().apply()
     }
 
     fun onJankenButtonTapped(view: View?){
